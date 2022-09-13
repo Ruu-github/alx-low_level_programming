@@ -2,9 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: using the main function
- * this programm prints "Programming is positive, zero, or negative"
- * Return: Always 0 (success)
+ * Retur; Always 0 (success)
  */
 
 int main(void)
@@ -14,7 +12,8 @@ int main(void)
 	c = 'a';
 	while
 		(c <= 'z') {
-			putchar(c);
+			if ((c != 'q' && c != 'e') && c <= 'z')
+				putchar(c);
 			c++;
 		}
 	putchar('\n');
